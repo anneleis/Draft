@@ -1,0 +1,94 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage{graphicx}
+\usepackage[space]{grffile}
+\usepackage{latexsym}
+\usepackage{textcomp}
+\usepackage{longtable}
+\usepackage{multirow,booktabs}
+\usepackage{amsfonts,amsmath,amssymb}
+\usepackage[round]{natbib}
+\usepackage{url}
+\usepackage[backref]{hyperref}
+\hypersetup{colorlinks=true,citecolor=blue,pdfborder={0 0 0}}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{lscape}
+\usepackage[margin=1in]{geometry}
+\usepackage{parskip}
+\setcitestyle{aysep={}}
+\usepackage[autostyle]{csquotes}
+\usepackage[none]{hyphenat}
+\usepackage{graphicx,wrapfig,lipsum}
+\usepackage{textgreek}
+\usepackage{varioref}
+\usepackage[tikz]{bclogo}
+\usepackage{tabu}
+\usepackage{pdflscape}
+\usepackage{rotating}
+\usepackage{microtype}
+
+
+\usepackage{imakeidx}
+\makeindex%[columns=3, title=Alphabetical Index, intoc, options= -s example_style.ist]
+
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{verbatim}
+
+
+\input{Alias}
+
+
+%\usepackage{setspace}
+%\doublespacing
+% or:
+%\onehalfspacing %STEVE'S PREFERENCE
+%\linespread{1.1}
+
+\title{{%
+		Individual and Community Development: \\
+		\Large The Vision, Perceptions and Role of Early Adolescent Youth}}
+
+\author{Anneleis Humphries \\
+	Melbourne Graduate School of Education \\
+	University of Melbourne \\
+	Supervisors: Assoc. Prof Helen Cahill \& Dr Kylie Smith}
+
+\date{\today}
+\bibliographystyle{anneleis-agsm}
+\begin{document}
+	
+%	
+
+	%
+	
+	\maketitle 
+	\hypersetup{linkcolor=blue} 
+	\tableofcontents
+	\newpage
+	%\input{chapters/Ch01intro}
+	\chapter{Intro}
+	\index{Research Questions}
+This research seeks to answer the following questions:
+		\begin{itemize} 
+			\item How do young people (aged 12-15) understand their own capacity to contribute to their communities?
+			\begin{itemize}
+				\item How do young people, in particular those in early adolescence, view community development? 
+				\item What do they understand to be the role of young people in the process of community development?
+				\item What do young people see as important in community building processes? What is their vision? How do they envision achieving this?
+				\item What do they believe would motivate young people to get involved in community development activities?
+			\end{itemize}
+		\end{itemize}
+	
+	\input{chapters/Ch02PeriodofYouth}
+	\input{chapters/Ch03YouthNCommunityBuilding}
+	\input{chapters/Ch04LearningandCB}
+	%\input{chapters/Ch05methods}
+	%\input{chapters/Ch07conclusion} 
+	%\input{chapters/Ch00Overview}
+	\printindex
+	\bibliography{mendeley.bib}
+	\addcontentsline{toc}{chapter}{Bibliography}
+%	\bibliography{../bibliography/PHDReferences}
+\end{document}
